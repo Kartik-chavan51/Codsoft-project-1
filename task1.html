@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="task1.css">
+  <title>Chavan's portfolio</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+
+    <div id="header">
+      <div class="container">
+
+        <nav><img src="image/kar.webp" alt="kclogo" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>z
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-duotone fa-xmark" onclick="closemenu()"></i>
+          
+        </ul><i class="fa-duotone fa-bars" onclick="openmenu()"></i></nav>
+
+        <div class="header-text">
+          <p>Web Designer</p>
+          <h1>Hi, I'm <span>Kartik Chavan</span> <br>
+             from Bengaluru.</h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/kar3.avif" alt="logo38" height="850px" width="80px">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+
+            <p>"I am a passionate and innovative professional who thrives on transforming complex challenges into elegant, user-centric solutions while continuously expanding my skills and collaborating with others to create impactful digital experiences."
+              This sentence combines several key elements: your problem-solving abilities, focus on user experience, commitment to innovation, dedication to ongoing learning, and collaborative approach.</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('eductaion')">Eductaion</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designer Web/App interface</li>
+                <li><span>Web Deveploment</span><br> Web/App developer</li>
+                <li><span>App Development</span><br>Building ios and android</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>TCS</span><br>Tata Company</li>
+                <li><span>APPLE</span><br> Apple Company</li>
+                <li><span>Microsoft</span><br>Microsoft Companyn</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="eductaion">
+              <ul>
+                <li><span>St.Anthony</span><br>Higher Primary School</li>
+                <li><span>PPC</span><br> Pre-University College</li>
+                <li><span>JSSATEB</span><br>Institue Of Technology Eductaion</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Services -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Development</h2>
+            <p>"I create responsive, user-friendly websites tailored to your specific needs. From sleek portfolio sites to complex e-commerce platforms, I use modern frameworks and best practices to deliver high-performance web solutions."</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>Mobile App Development</h2>
+            <p>"I design and develop native and cross-platform mobile applications for iOS and Android. Whether you need a simple utility app or a feature-rich social platform, I can bring your mobile app idea to life with clean, efficient code."</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fab fa-app-store"></i>
+            <h2>Data Analysis and Visualization</h2>
+            <p>"I transform raw data into actionable insights through advanced analytics and compelling visualizations. Using tools like Python, R, and Tableau, I help businesses make data-driven decisions by uncovering trends, patterns, and opportunities hidden in their data."</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image/kar4.webp" alt="work1">
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>Share moments, connect with friends, and explore trending content</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/kar5.jpg" alt="work2">
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>Our Music App delivers a world of sound at your fingertips</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/kar6.jpg" alt="work3">
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>Our sleek Online Shopping App offers a smooth, intuitive experience</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+
+
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>katikchavan@gmail.com</p>
+            <p><i class="fas fa-phone"></i>9353227008</p>
+            <div class="social-icons">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="" class="btn btn2">Download CV</a>
+          </div>
+  
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; Kartik. Made  <i class="fas fa-heart"></i> by Chavan</p>
+      </div>
+    </div>
+<script>
+
+  var tablinks=document.getElementsByClassName("tab-links");
+  var tabcontents=document.getElementsByClassName("tab-contents");
+
+
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+  
+}
+
+
+</script>
+</body>
+</html>
